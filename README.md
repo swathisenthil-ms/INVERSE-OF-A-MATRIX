@@ -16,14 +16,13 @@ Display the inverse matrix using the print() function.
 
 ## Program:
 ```
-#Program to find the solution for the given linear equations.
+#Program to find the inverse of a matrix.
 #Developed by: SWATHI S
 #RegisterNumber: 25016151
 import numpy as np
-A = np.array([[1,-3],[3,1]])
-B = np.array([0,10])
-result = np.linalg.solve(A,B)
-print(result)
+matrixA = np.array([[6,2,3],[3,1,1],[10,3,4]])
+inverse = np.linalg.inv(matrixA)
+print(inverse)
 
 ```
 ## Output:
